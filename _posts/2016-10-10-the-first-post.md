@@ -22,6 +22,7 @@ As the first post on this blog, the motivation behind it and the content that wi
 Welcome! So here it is, my first post. As such, I would like to why I started this blog, and what exactly I will write about in it.
 
 There are three reasons why I wanted to make a blog, namely:
+
 1. Contribute to the software community.
 2. Learn by "teaching" and repetition.
 3. Serve as a reminder, primarily for myself.
@@ -30,4 +31,4 @@ I will try to make all posts well structured, short, and concise, so that they c
 
 The frequency of the posts will depend on how busy I am (and if there is any content), but I will try to post at least once every two weeks. I am also planning on translating all posts in Japanese, if I have enough free time. I hope you, the reader, can find something of a value within my posts.
 
-** Let's start! **
+**Let's start!**
