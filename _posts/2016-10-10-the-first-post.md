@@ -29,6 +29,8 @@ There are three reasons why I wanted to make a blog, namely:
 
 I will try to make all posts well structured, short, and concise, so that they can be read in the least amount of time. The posts will be split into (mainly) two categories: software development problems I have faced and their solutions, and software engineering research that I find interesting or immediately applicable to industry. Each post will be appropriately tagged (personal experience, research, etc.).
 
+The personal experience posts are separated into two groups: The first one is long projects with a detailed description, found in the "Projects" page. The second one is short personal experience posts, found in the "Blog" page (where research-based posts will also be located).
+
 The frequency of the posts will depend on how busy I am (and if there is any content), but I will try to post at least once every two weeks. I am also planning on translating all posts in Japanese, if I have enough free time. I hope you, the reader, can find something of a value within my posts.
 
 **Let's start!**
