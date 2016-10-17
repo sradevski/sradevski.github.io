@@ -15,6 +15,7 @@ picture: assets/images/profile.jpg
 url: https://sradevski.github.io
 # your url: http://USERNAME.github.io
 
+fontAwesomeLink: //maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css
 permalink: /:title/
 
 markdown: kramdown
@@ -53,7 +54,7 @@ authors:
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
