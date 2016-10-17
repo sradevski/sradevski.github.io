@@ -5,13 +5,12 @@ layout: page
 <!-- ![Profile Image]({{ site.url }}/{{ site.picture }}) -->
 
 <div class="left-section">
-  <div class="narrow-section">
-
-  <div class="image-holder">
+  <div class="narrow-section image-holder">
     <img alt="{{ site.name }}" src="{{site.url}}/{{site.picture}}"/>
     <div class="about-social-links">{% include social-links.html %}</div>
   </div>
 
+  <div class="narrow-section">
     <div class="section-entry">
       <h3 class="entry-title"><span class="fa fa-language"></span> Languages</h3>
       <div class="entry-element">
@@ -49,6 +48,12 @@ layout: page
         </div>
       </div>
       <div class="entry-element">
+        <h4 class="entry-skill">HTML5 &amp; CSS3</h4>
+        <div class="progress-bar">
+          <div class="progress-percentage"  style="width: 60%"></div>
+        </div>
+      </div>
+      <div class="entry-element">
         <h4 class="entry-skill">Python</h4>
         <div class="progress-bar">
           <div class="progress-percentage"  style="width: 40%"></div>
@@ -60,8 +65,53 @@ layout: page
           <div class="progress-percentage"  style="width: 30%"></div>
         </div>
       </div>
+      <div style="height: 30px"></div>
+      <div class="entry-element">
+        <h4 class="entry-skill">Web Development</h4>
+        <div class="progress-bar">
+          <div class="progress-percentage"  style="width: 80%"></div>
+        </div>
+      </div>
+      <div class="entry-element">
+        <h4 class="entry-skill">React Native</h4>
+        <div class="progress-bar">
+          <div class="progress-percentage"  style="width: 70%"></div>
+        </div>
+      </div>
+      <div class="entry-element">
+        <h4 class="entry-skill">Full-stack JavaScript</h4>
+        <div class="progress-bar">
+          <div class="progress-percentage"  style="width: 55%"></div>
+        </div>
+      </div>
     </div>
-
+    <hr>
+    <div class="section-entry">
+      <h3 class="entry-title"><span class="fa fa-trophy"></span> Certificates and Awards</h3>
+      <div class="entry-element">
+        <h4 class="entry-skill">Master's Studies Scholarship</h4>
+        <p class="narrow-location">Japanese Government (MEXT)</p>
+        <h4 class="narrow-date">Apr. 2014 - Apr. 2017</h4>
+      </div>
+      <hr>
+      <div class="entry-element">
+        <h4 class="entry-skill">Scholarship for Outstanding Students</h4>
+        <p class="narrow-location">Macedonian Government</p>
+        <h4 class="narrow-date">Sep. 2011 - Jun. 2013</h4>
+      </div>
+      <hr>
+      <div class="entry-element">
+        <h4 class="entry-skill">Programming in C# Specialist</h4>
+        <p class="narrow-location">Microsoft</p>
+        <h4 class="narrow-date">August 2013</h4>
+      </div>
+      <hr>
+      <div class="entry-element">
+        <h4 class="entry-skill">Microsoft Certified Professional</h4>
+        <p class="narrow-location">Microsoft</p>
+        <h4 class="narrow-date">June 2013</h4>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -113,15 +163,15 @@ layout: page
     <hr>
     <div class="section-entry">
       <h3 class="entry-title">Software Developer (part-time)</h3>
-      <h4 class="entry-location">Rakuten, Japan</h4>
+      <h4 class="entry-location">Particles, Macedonia</h4>
       <h4 class="entry-date">Dec. 2011 - Apr. 2014 (2 years and 5 months)</h4>
       <p class="entry-content">Worked mainly with C#, Microsoft Technologies (.NET Framework, ASP.NET MVC, WCF, Windows Mobile 6), Database Systems (MySQL, SQLite), JavaScript, HTML, and CSS, using Agile development methodology. Next are the projects I worked on:
         <br>
-        Dec. 2011 – February 2012: Geospatial data analysis and manipulation.
+        <b>Dec. 2011 – February 2012:</b> Geospatial data analysis and manipulation tool.
         <br>
-        February 2012 – June 2012: Visualization of data in Microsoft SharePoint.
+        <b>February 2012 – June 2012:</b> Visualization of data in Microsoft SharePoint.
         <br>
-        Aug. 2012 – Apr. 2014: Smart water metering information system based on ASP.NET MVC 4 and Windows Mobile 6. Participated in the whole development cycle, from planning, to documentation and support. Solely planned, designed, and implemented the on-field handheld device software (Windows Mobile 6) as part of the system, and partially implemented and maintained the central software (web solution). Furthermore, worked on the security of the metering devices, and supervised 2 interns during the summer 2012.</p>
+        <b>Aug. 2012 – Apr. 2014:</b> Smart water metering information system based on ASP.NET MVC 4 and Windows Mobile 6. Participated in the whole development cycle, from planning, to documentation and support. Solely planned, designed, and implemented the on-field handheld device software (Windows Mobile 6) as part of the system, and partially implemented and maintained the central software (web solution). Furthermore, worked on the security of the metering devices, and supervised 2 interns during the summer of 2012.</p>
     </div>
   </div>
 
@@ -129,6 +179,27 @@ layout: page
     <div class="section-title">
       <h2 class="title-icon"><span class="fa fa-code"></span></h2>
       <h2 class="title-text">Projects</h2>
+    </div>
+
+    <div class="section-entry">
+      <h3 class="entry-title">EyeNav</h3>
+      <h4 class="entry-location">Personal project</h4>
+      <h4 class="entry-date">May 2016 - Present</h4>
+      <p class="entry-content">EyeNav is a Brackets.io plugin that allows you to do simple navigation in the editor using an eye-tracking device. It allows you to scroll, click, select text, and more using your eyes and keyboard shortcuts. Currently implementing for Atom.io. More details <a href="https://www.github.com/sradevski/eyenav">here</a></p>
+    </div>
+    <hr>
+    <div class="section-entry">
+      <h3 class="entry-title">HomeAutomate</h3>
+      <h4 class="entry-location">Personal project</h4>
+      <h4 class="entry-date">Jan. 2016 - May 2016</h4>
+      <p class="entry-content">A project with a goal to automate my small apartment. It controls the lights, airconditioning, and music player. It is controlled by a motion sensor, hardware buttons, and a mobile application developed with React Native. More details <a href="https://github.com/sradevski/homeAutomate">here</a></p>
+    </div>
+    <hr>
+    <div class="section-entry">
+      <h3 class="entry-title">Lego Mindstorm Mars Rover</h3>
+      <h4 class="entry-location">NAIST, Japan; Japan Airspace Exploration Agency (JAXA), Japan</h4>
+      <h4 class="entry-date">May 2015 - Aug. 2015</h4>
+      <p class="entry-content">Project done in cooperation with JAXA (Japan Aerospace Exploration Agency) with a goal of creating a mars rover using Lego Mindstorm, while going through all stages of software engineering. The system is compromised of 2 parts: a ground station software, meant to communicate with the rover; the mars rover software, meant to autonomously run a 2-stage course terrain. I was the project leader, managing the tasks among four team members, I implemented the ground station, and I took part in the writing of the communication part of the rover software.</p>
     </div>
   </div>
 
