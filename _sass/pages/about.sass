@@ -27,6 +27,54 @@ $blueColor: #689bed
         @media #{$tablet}
             width: 70%
 
+        > #more-info-section
+            visibility: hidden
+            max-height: 0
+            transition: max-height .2s ease-out
+            overflow: hidden
+
+        > #more-info-label
+            display: block
+            padding: 10px 5px 10px 5px
+            margin: 30px 0px 30px 0px
+            text-align: center
+            font-size: 24px
+            color: white
+            background: $blueColor
+            cursor: pointer
+            align-self: center
+            overflow: hidden
+
+            border: 1px solid #c5c5c5
+            -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
+            -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
+            box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
+            -webkit-border-radius: 3px
+            -moz-border-radius: 3px
+            border-radius: 3px
+
+        > #more-info-label:hover
+            background: darken($blueColor, 25)
+
+        > #more-info-toggle
+            position: absolute
+            top: -9999px
+            left: -9999px
+            opacity: 0
+            visibility: hidden
+            height: 0
+            width: 0
+
+        > #more-info-toggle:checked ~ #more-info-label
+            height: 0
+            width: 0
+            margin: 0
+            padding: 0
+
+        > #more-info-toggle:checked ~ #more-info-section
+            visibility: visible
+            max-height: 3000px
+            transition: max-height .3s ease-in
     h2
         font-size: 2.5rem
 
