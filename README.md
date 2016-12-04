@@ -1,1 +1,1 @@
-### My personal website. Visit sradevski.github.io
+### My personal website. Visit sradevski.com
