@@ -18,7 +18,7 @@ description: Discussing how setting up terminology early in a project can improv
 
 ## Summary:
 
-Problems I faced when starting a new project, and some easy ways I could have overcame them (but I didn't) by setting up terminology and being consistent with its usage.
+Problems I faced when starting a new project, and some easy ways I could have overcome them (but I didn't) by setting up terminology and being consistent with its usage.
 
 ## The Wall I Hit
 
@@ -28,7 +28,7 @@ Depending on the industry your project belongs to, there will be industry-specif
 
 ## The Simple Solution For It
 
-There is one word that will mitigate most of the problems: **cheatsheets**. Although the project requirements will probably change quite a lot, terminology wont't (in principle). Get few people who are the most knowledgeable in the industry you are working in, and try to define all the industry-specific terms you can think of. Afterwards, write a very short (5-6 words) description of the term, along with some synonyms. I guess it will look a lot like a thesaurus. Have the cheatsheet easily and quickly accessible to all developers, and make sure you can easily extend it (digital). You can either deliver it as an online document, or have a big screen in the middle of the room showing cheatsheets (if you can afford it), as it will not clutter the desktop of developers. Whenever some confusion appears, extend the list. You should do this even if you work alone on a project.
+There is one word that will mitigate most of the problems: **cheatsheets**. Although the project requirements will probably change quite a lot, terminology won't (in principle). Get few people who are the most knowledgeable in the industry you are working in, and try to define all the industry-specific terms you can think of. Afterward, write a very short (5-6 words) description of the term, along with some synonyms. I guess it will look a lot like a thesaurus. Have the cheatsheet easily and quickly accessible to all developers, and make sure you can easily extend it (digital). You can either deliver it as an online document or have a big screen in the middle of the room showing cheatsheets (if you can afford it), as it will not clutter the desktop of developers. Whenever some confusion appears, extend the list. You should do this even if you work alone on a project.
 
 Once everyone is on the same page regarding terminology, talking about things becomes simpler. Renaming/refactoring code becomes simpler. It is easier to reason about the code and to get the "big" picture of the project. It is definitely a worthwhile effort, yet it is just one aspect of consistency.  
 
