@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Terminology and Consistent Usage in Software Development"
+title: "Consistency and Clear Terminology in Software Development"
 layout: post
 date: 2016-12-13 16:33
 tag:
@@ -26,9 +26,9 @@ I have been working on this React Native project for several months now, and it 
 
 Depending on the industry your project belongs to, there will be industry-specific terminology that will be used throughout the application. Some of the terms may be confusing, some might have several meanings, or there might be several words describing the same thing. Not being clear what to use when and how will increase the complexity of the code and drive developers mad. Not having a well-established terminology means lack of consistency, which in turn is what makes code confusing and more difficult to reason about on a project-level.
 
-## The simple solution for it
+## The Simple Solution For It
 
-There is one word that will mitigate most of the problems: **Cheatsheets**. Although the project requirements will probably change quite a lot, terminology wont't (in principle). Get few people who are the most knowledgeable in the industry you are working in, and try to define all the industry-specific terms you can think of. Afterwards, write a very short (5-6 words) description of the term, along with some synonyms. I guess it will look a lot like a thesaurus. Have the cheatsheet easily and quickly accessible to all developers, and make sure you can easily extend it (digital). You can either deliver it as an online document, or have a big screen in the middle of the room showing cheatsheets (if you can afford it), as it will not clutter the desktop of developers. Whenever some confusion appears, extend the list. You should do this even if you work alone on a project.
+There is one word that will mitigate most of the problems: **cheatsheets**. Although the project requirements will probably change quite a lot, terminology wont't (in principle). Get few people who are the most knowledgeable in the industry you are working in, and try to define all the industry-specific terms you can think of. Afterwards, write a very short (5-6 words) description of the term, along with some synonyms. I guess it will look a lot like a thesaurus. Have the cheatsheet easily and quickly accessible to all developers, and make sure you can easily extend it (digital). You can either deliver it as an online document, or have a big screen in the middle of the room showing cheatsheets (if you can afford it), as it will not clutter the desktop of developers. Whenever some confusion appears, extend the list. You should do this even if you work alone on a project.
 
 Once everyone is on the same page regarding terminology, talking about things becomes simpler. Renaming/refactoring code becomes simpler. It is easier to reason about the code and to get the "big" picture of the project. It is definitely a worthwhile effort, yet it is just one aspect of consistency.  
 
