@@ -2,49 +2,103 @@ $blueColor: #689bed
 
 .about
     text-align: center
+    > .content-container
+        > .left-section
+            width: 25%
+            display: inline-block
+            margin: 15px
+            vertical-align: top
 
-    > .left-section
-        width: 25%
-        display: inline-block
-        margin: 15px
-        vertical-align: top
+            @media #{$mobile}
+                width: 90%
 
-        @media #{$mobile}
-            width: 90%
+            @media #{$tablet}
+                width: 70%
 
-        @media #{$tablet}
-            width: 70%
+        > .right-section
+            width: 65%
+            display: inline-block
+            margin: 15px
+            vertical-align: top
 
-    > .right-section
-        width: 65%
-        display: inline-block
-        margin: 15px
-        vertical-align: top
+            @media #{$mobile}
+                width: 90%
 
-        @media #{$mobile}
-            width: 90%
+            @media #{$tablet}
+                width: 70%
 
-        @media #{$tablet}
-            width: 70%
+            > #more-info-section
+                visibility: hidden
+                max-height: 0
+                transition: max-height .2s ease-out
+                overflow: hidden
 
-        > #more-info-section
-            visibility: hidden
-            max-height: 0
-            transition: max-height .2s ease-out
-            overflow: hidden
+            > #more-info-label
+                display: block
+                padding: 10px 5px 10px 5px
+                margin: 30px 0px 30px 0px
+                text-align: center
+                font-size: 24px
+                color: white
+                background: $blueColor
+                cursor: pointer
+                align-self: center
+                overflow: hidden
 
-        > #more-info-label
-            display: block
-            padding: 10px 5px 10px 5px
-            margin: 30px 0px 30px 0px
+                border: 1px solid #c5c5c5
+                -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
+                -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
+                box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
+                -webkit-border-radius: 3px
+                -moz-border-radius: 3px
+                border-radius: 3px
+
+            > #more-info-label:hover
+                background: darken($blueColor, 25)
+
+            > #more-info-toggle
+                position: absolute
+                top: -9999px
+                left: -9999px
+                opacity: 0
+                visibility: hidden
+                height: 0
+                width: 0
+
+            > #more-info-toggle:checked ~ #more-info-label
+                height: 0
+                width: 0
+                margin: 0
+                padding: 0
+
+            > #more-info-toggle:checked ~ #more-info-section
+                visibility: visible
+                max-height: 3000px
+                transition: max-height .3s ease-in
+        h2
+            font-size: 2.5rem
+
+        h3
+            font-size: 1.7rem
+
+        h4
+            font-size: 1.4rem
+
+        .image-holder
+            width: 100%
+            margin-bottom: 15px
+
+            > img
+                border-radius: 0px
+
+            @media #{$mobile}
+                width: 100%
+
+        .about-social-links
             text-align: center
-            font-size: 24px
-            color: white
-            background: $blueColor
-            cursor: pointer
-            align-self: center
-            overflow: hidden
 
+        .wide-section,
+        .narrow-section
             border: 1px solid #c5c5c5
             -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
             -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
@@ -53,189 +107,135 @@ $blueColor: #689bed
             -moz-border-radius: 3px
             border-radius: 3px
 
-        > #more-info-label:hover
-            background: darken($blueColor, 25)
+        .wide-section
+            margin-bottom: 15px
+            padding: 0px 15px 15px 15px
 
-        > #more-info-toggle
-            position: absolute
-            top: -9999px
-            left: -9999px
-            opacity: 0
-            visibility: hidden
-            height: 0
-            width: 0
-
-        > #more-info-toggle:checked ~ #more-info-label
-            height: 0
-            width: 0
-            margin: 0
-            padding: 0
-
-        > #more-info-toggle:checked ~ #more-info-section
-            visibility: visible
-            max-height: 3000px
-            transition: max-height .3s ease-in
-    h2
-        font-size: 2.5rem
-
-    h3
-        font-size: 1.7rem
-
-    h4
-        font-size: 1.4rem
-
-    .image-holder
-        width: 100%
-        margin-bottom: 15px
-
-        > img
-            border-radius: 0px
-
-        @media #{$mobile}
-            width: 100%
-
-    .about-social-links
-        text-align: center
-
-    .wide-section,
-    .narrow-section
-        border: 1px solid #c5c5c5
-        -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
-        -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
-        box-shadow: 0 3px 8px rgba(0, 0, 0, .25)
-        -webkit-border-radius: 3px
-        -moz-border-radius: 3px
-        border-radius: 3px
-
-    .wide-section
-        margin-bottom: 15px
-        padding: 0px 15px 15px 15px
-
-        > hr
-            margin-top: 20px
-            margin-bottom: 20px
-            background: $gama
-            width: 90%
-
-        > .section-title
-            > .title-icon
-                display: inline-block
-                color: $alpha
-            > .title-text
-                //padding-left: 15px
-                display: inline-block
-                color: $alpha
-
-        > .section-entry
-            //padding-left: 30px
-            > .entry-title
-                color: $alpha
-                margin-bottom: 3px
-
-            > .entry-location
-                color: $gama
-                margin-top: 0px
-                margin-bottom: 3px
-
-            > .entry-date
-                color: $blueColor
-                margin-top: 0px
-
-            > .entry-skill-tags
-                color: $gama
-                font-weight: 300
-                font-size: 1.4rem
-                text-transform: uppercase
-                text-align: center
-                display: block
-                margin-bottom: 0.5rem
-                letter-spacing: 1px
-                -webkit-font-smoothing: antialiased
-                text-rendering: optimizeLegibility
-
-                > .skill-tag
-                    padding: 2px 8px
-                    border-radius: 3px
-                    font-size: 1.15rem
-                    background: $epsilon
-                    color: $alpha
-                    letter-spacing: 1px
-                    margin: 3px 1px
-                    text-decoration: none
-                    display: inline-block
-
-            > .entry-content
-                margin-top: 6px
-    .narrow-section
-        width: 100%
-        padding-bottom: 15px
-        > .section-entry
-            align-content: center
-            > .entry-title
-                color: $alpha
-
-                @media #{$mobile}
-                    font-size: 2.5rem
-
-                @media #{$tablet}
-                    font-size: 2.5rem
             > hr
                 margin-top: 20px
                 margin-bottom: 20px
                 background: $gama
-                width: 70%
+                width: 90%
 
-            > .entry-element
-                width: 80%
-                margin: auto
-                margin-top: 15px
-                > .entry-skill
+            > .section-title
+                > .title-icon
+                    display: inline-block
+                    color: $alpha
+                > .title-text
+                    //padding-left: 15px
+                    display: inline-block
+                    color: $alpha
+
+            > .section-entry
+                //padding-left: 30px
+                > .entry-title
                     color: $alpha
                     margin-bottom: 3px
-                    margin-top: 8px
 
-                    @media #{$mobile}
-                        font-size: 1.7rem
-
-                    @media #{$tablet}
-                        font-size: 1.7rem
-
-                > .narrow-date
-                    color: $blueColor
-                    font-size: 1.1rem
-                    margin-top: 0px
-                    margin-bottom: 0px
-
-                    @media #{$mobile}
-                        font-size: 1.4rem
-
-                    @media #{$tablet}
-                        font-size: 1.4rem
-
-                > .narrow-location
+                > .entry-location
                     color: $gama
-                    font-size: 1.25rem
                     margin-top: 0px
-                    margin-bottom: 0px
+                    margin-bottom: 3px
+
+                > .entry-date
+                    color: $blueColor
+                    margin-top: 0px
+
+                > .entry-skill-tags
+                    color: $gama
+                    font-weight: 300
+                    font-size: 1.4rem
+                    text-transform: uppercase
+                    text-align: center
+                    display: block
+                    margin-bottom: 0.5rem
+                    letter-spacing: 1px
+                    -webkit-font-smoothing: antialiased
+                    text-rendering: optimizeLegibility
+
+                    > .skill-tag
+                        padding: 2px 8px
+                        border-radius: 3px
+                        font-size: 1.15rem
+                        background: $epsilon
+                        color: $alpha
+                        letter-spacing: 1px
+                        margin: 3px 1px
+                        text-decoration: none
+                        display: inline-block
+
+                > .entry-content
+                    margin-top: 6px
+        .narrow-section
+            width: 100%
+            padding-bottom: 15px
+            > .section-entry
+                align-content: center
+                > .entry-title
+                    color: $alpha
 
                     @media #{$mobile}
-                        font-size: 1.4rem
+                        font-size: 2.5rem
 
                     @media #{$tablet}
-                        font-size: 1.4rem
+                        font-size: 2.5rem
+                > hr
+                    margin-top: 20px
+                    margin-bottom: 20px
+                    background: $gama
+                    width: 70%
 
-                > .progress-bar
-                    position: relative
-                    height: 8px
-                    display: block
-                    width: 100%
-                    background-color: #d4d7db
-                    border-radius: 2px
-                    overflow: hidden
+                > .entry-element
+                    width: 80%
+                    margin: auto
+                    margin-top: 15px
+                    > .entry-skill
+                        color: $alpha
+                        margin-bottom: 3px
+                        margin-top: 8px
 
-                    > .progress-percentage
-                        position: absolute
-                        bottom: 0
-                        top: 0
-                        background-color: $blueColor
-                        width: 80%
+                        @media #{$mobile}
+                            font-size: 1.7rem
+
+                        @media #{$tablet}
+                            font-size: 1.7rem
+
+                    > .narrow-date
+                        color: $blueColor
+                        font-size: 1.1rem
+                        margin-top: 0px
+                        margin-bottom: 0px
+
+                        @media #{$mobile}
+                            font-size: 1.4rem
+
+                        @media #{$tablet}
+                            font-size: 1.4rem
+
+                    > .narrow-location
+                        color: $gama
+                        font-size: 1.25rem
+                        margin-top: 0px
+                        margin-bottom: 0px
+
+                        @media #{$mobile}
+                            font-size: 1.4rem
+
+                        @media #{$tablet}
+                            font-size: 1.4rem
+
+                    > .progress-bar
+                        position: relative
+                        height: 8px
+                        display: block
+                        width: 100%
+                        background-color: #d4d7db
+                        border-radius: 2px
+                        overflow: hidden
+
+                        > .progress-percentage
+                            position: absolute
+                            bottom: 0
+                            top: 0
+                            background-color: $blueColor
+                            width: 80%
