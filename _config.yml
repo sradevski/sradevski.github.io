@@ -1,9 +1,9 @@
 # main text of home
 name: Stevche Radevski
-bio: Software engineering master’s student at NAIST, Japan. JavaScript developer. Open-source supporter. Tinkerer. Trilingual.
+bio: Software engineer working at Rakuten, Japan. JavaScript developer. Open-source supporter. Tinkerer. Trilingual.
 
 # twitter summary info
-description: Software engineering master’s student at NAIST, Japan. JavaScript developer. Open-source supporter. Tinkerer. Trilingual.
+description: Software engineer working at Rakuten, Japan. JavaScript developer. Open-source supporter. Tinkerer. Trilingual.
 
 
 # if it's an external image, update below for true
@@ -48,7 +48,7 @@ email: sradevski@live.com
 authors:
     stevcheradevski:
         name: Stevche Radevski
-        bio: Software engineering master’s student at NAIST, Japan. JavaScript developer. Open-source supporter. Tinkerer. Trilingual.
+        bio: Software engineer working at Rakuten, Japan. JavaScript developer. Open-source supporter. Tinkerer. Trilingual.
         external-image: false
         picture: assets/images/profile.jpg
 # do you want a larger site? change the option below
