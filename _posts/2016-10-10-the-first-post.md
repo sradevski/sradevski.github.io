@@ -31,6 +31,6 @@ I will try to make all posts well structured, short, and concise, so that they c
 
 The personal experience posts are separated into two groups: The first one is long projects with a detailed description, found in the "Projects" page. The second one is short personal experience and research-related posts, found in the "Blog" page.
 
-The frequency of the posts will depend on how busy I am (and if there is any content), but I will try to post at least once every two weeks. I hope you, the reader, can find something of a value within my posts.
+The frequency of the posts will depend on how busy I am (and if there is any content), but I will try to post every time there is something that consumed a decent amount of time to figure out, or I think is worth documenting for future reference. I hope you, the reader, can find something of a value within my posts.
 
 **Let's start!**
