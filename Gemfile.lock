@@ -30,7 +30,7 @@ GEM
       typhoeus (~> 0.7)
       yell (~> 2.0)
     i18n (0.7.0)
-    jekyll (3.2.1)
+    jekyll (3.3.0)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
